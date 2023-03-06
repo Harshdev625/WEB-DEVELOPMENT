@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forms</title>
+</head>
+
+<body>
+  <form action="mailto:devh9933@gmail.com" method="post" enctype="text/plain">
+    <div>
+      <label for="user"> Username </label>
+      <br />
+      <input type="text" id="user" required placeholder="Aman" />
+    </div>
+    <div>
+      <label for="pass"> Password </label>
+      <br />
+      <input type="password" id="pass" required placeholder="abc123" />
+    </div>
+    <div>
+      <label for="E-mail"> Email ID </label>
+      <br />
+      <input type="email" id="E-mail" required placeholder="abc.example.com" />
+    </div>
+    <div>
+      <label for="number"> Roll Number </label>
+      <br />
+      <input type="number" id="number" required placeholder="9" />
+    </div>
+    <div>
+      <fieldset>
+        <legend>Date Of Birth</legend>
+        <p>
+          Day &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Month&nbsp;&nbsp;&nbsp; Year
+        </p>
+        <input type="number" name="Day" id="Date" required min="1" max="31" value="1" />
+        <select>
+          <option>Jan</option>
+          <option>Feb</option>
+          <option>Mar</option>
+          <option selected>Apr</option>
+          <option>May</option>
+          <option>Jun</option>
+          <option>Jul</option>
+          <option>Aug</option>
+          <option>Sep</option>
+          <option>Oct</option>
+          <option>Nov</option>
+          <option>Dec</option>
+        </select>
+        <input type="number" name="Year" id="Date" required min="1980" max="2022" value="1980" />
+    </div>
+    </fieldset>
+    <label for="Date"> Date Of Birth </label>
+    <br />
+    <p>
+      Day &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Month&nbsp;&nbsp;&nbsp; Year
+    </p>
+    <input type="number" name="Day" id="Date" required min="1" max="31" value="1" />
+    <select>
+      <option>Jan</option>
+      <option>Feb</option>
+      <option>Mar</option>
+      <option selected>Apr</option>
+      <option>May</option>
+      <option>Jun</option>
+      <option>Jul</option>
+      <option>Aug</option>
+      <option>Sep</option>
+      <option>Oct</option>
+      <option>Nov</option>
+      <option>Dec</option>
+    </select>
+    <input type="number" name="Year" id="Date" required min="1980" max="2022" value="1980" />
+    </div>
+    <div>
+      <label for="url"> LinkedIn Profile </label>
+      <br />
+      <input type="url" id="url" required placeholder="https://www.linkedin.com/in/name-number/" />
+    </div>
+    <p>Gender</p>
+    <input type="radio" name="Gender" value="female" />Female<br />
+    <input type="radio" name="Gender" value="male" />Male<br />
+    <input type="radio" name="Gender" value="others" />Others<br />
+    <p>Skills</p>
+    <input type="checkbox" name="skills" value="C++" checked />C++<br />
+    <input type="checkbox" name="skills" value="Java" />Java<br />
+    <input type="checkbox" name="skills" value="Phyton" />Phyton<br />
+    <input type="checkbox" name="skills" value="Web Development" />Web
+    Development<br />
+    <input type="checkbox" name="skills" value="App Development" />App
+    Development<br />
+    <div>
+      <label> Rate Your Skills </label>
+      <br />
+      <input type="range" max="5" min="0" step="1" required />
+    </div>
+    <div>
+      <label for="country"> Country </label>
+      <br />
+      <input type="country" name="country" value="India" required id="country" disabled />
+    </div>
+    <p>Share Your Experience</p>
+    <textarea name="experience" rows="10" cols="165"></textarea>
+    <br />
+    <button type="button">Save</button>
+    <div>
+      <label for="time"> Time Of Submission </label>
+      <br />
+      <input type="time" id="time" required />
+    </div>
+    <div>
+      <button onclick="alert('Data saved')">CHECK IT</button><br>
+      <input type="submit" value="Submit Form" />
+    </div>
+  </form>
+</body>
+
+</html>

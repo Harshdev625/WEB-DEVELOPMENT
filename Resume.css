@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+}
+
+#bodyheader {
+    height: 80vh;
+    opacity: 0.8;
+    background-image: url(https://www.wallpapertip.com/wmimgs/83-838362_web-developer.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 10;
+    font-size: 0.9rem;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    /* transition: color 0.5 , border-bottom 4s; */
+}
+
+.horizontal-list li a:hover {
+    color: aquamarine;
+    border-bottom: 2px solid red;
+}
+
+/* .info {
+    /* text-align: center; */
+    /* word-wrap: normal; */
+    /* word-break:20px; */
+    /* font-size: 18px; */
+    /* background-position: center; */
+    /* font-family: Calibri; */
+    /* line-height: 2px; */
+    /* word-spacing: 5px; */
+    /* font: optional; 
+
+} */
+
+#my-name {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+    margin-bottom: 0.5rem;
+}
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+/* #skills {
+    background-position: center;
+    
+} */
+
+.tech {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    /* align-items: center; */
+    justify-self: center;
+    /* align-self: center; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 11px;
+    margin: 20px;
+
+}
+
+.tech li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+/* section {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+
+} */
+
+/* section:nth-child(2n) {
+    background-color: white;
+}
+
+section:nth-child(2n+1) {
+    background-color: bisque;
+} */
+
+#my-image {
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    margin-top: -25vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px white;
+}
+
+.social-icon {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.social-icon li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.social-icon li:hover {
+    background-color: white;
+    border-bottom: 4px solid green;
+    border-top: 4px solid red;
+    border-right: 4px solid yellow;
+    border-left: 4px solid blue;
+    /* box-shadow: 0px 0px 0px 4px blue; */
+}

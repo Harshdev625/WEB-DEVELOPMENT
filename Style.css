@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color:white;
+    font-size:20px;
+}
+#change:hover{
+        color:yellow;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.cursive{
+    font-family:cursive;
+}
+.link{
+    color:green;
+}
+#text{
+    color:#3f51b5;
+}
+.division a{
+    color:white;
+    border:5px solid rgb(255, 47, 248);
+    line-height:40px;
+    border-bottom: 10px solid black;
+    border-radius: 2px;
+    margin: 1px;
+    padding:1px;
+    text-decoration: none;
+    font: size 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.division a:hover{
+    color:green;
+}
